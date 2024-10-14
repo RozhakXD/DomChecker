@@ -5,15 +5,15 @@
 ![Requests](https://img.shields.io/badge/Requests-2.31-red)
 ![Threading](https://img.shields.io/badge/ThreadPoolExecutor-30_workers-yellow)
 
-**DomChecker** adalah alat yang memudahkan Anda memeriksa apakah suatu hostname atau domain memberikan response code HTTP 200 (OK). Alat ini dirancang untuk efisiensi, multi-threading, dan handling error otomatis. Dengan menggunakan DomChecker, Anda dapat memindai daftar domain dari file teks dan menyimpan hasilnya dalam format JSON.
+**DomChecker** adalah alat untuk memeriksa status respons HTTP dari hostname atau domain secara otomatis. Dirancang agar efisien dengan multi-threading dan kemampuan menangani error, DomChecker memindai domain dari file teks dan menyimpan hasil yang valid (HTTP 200) dalam format JSON.
 
 ## 📋 Fitur Utama
 - Memindai secara otomatis daftar domain dari file apa pun dengan pola yang tidak beraturan.
-- Multi-threading untuk pemrosesan cepat (menggunakan 30 worker).
 - Handling error otomatis (connection error, timeout, dll.).
 - Tampilan konsol lebih rapi dan elegan dengan Rich library.
 - Hasil disimpan dalam file **JSON**.
 - Protokol **HTTP/HTTPS** dapat dipilih pengguna.
+- Multi-threading untuk pemrosesan cepat (menggunakan 30 worker).
 
 ## 🚀 Instalasi
 1. Clone Repository dari GitHub
@@ -70,6 +70,13 @@ DomChecker/
 
 ## Tangkapan Layar
 ![FunPic_20241014](https://github.com/user-attachments/assets/22021b15-61ea-4491-ab2a-c0e5e1f9b1e5)
+
+## ☕ Dukung Kami
+Jika Anda merasa proyek ini bermanfaat dan ingin mendukung pengembangan lebih lanjut, Anda bisa memberikan donasi melalui:
+
+- [Trakteer](https://trakteer.id/rozhak_official/tip)
+- [PayPal](https://paypal.me/rozhak9)
+- [Saweria](https://saweria.co/rozhak9)
 
 ## 🧑‍💻 Kontribusi
 Kontribusi sangat terbuka! Silakan fork repository ini dan buat pull request jika Anda menemukan bug atau ingin menambahkan fitur baru.
