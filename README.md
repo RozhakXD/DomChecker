@@ -63,13 +63,13 @@ DomChecker/
 - **Python**
 - **Rich Library** – Untuk memperindah tampilan konsol.
 
+## Tangkapan Layar
+![FunPic_20241014](https://github.com/user-attachments/assets/22021b15-61ea-4491-ab2a-c0e5e1f9b1e5)
+
 ## 📌 Catatan Penting
 - File input harus berisi daftar domain atau hostname (berantakan atau terstruktur).
 - **Timeout** telah diset ke **10 detik** untuk menghindari request yang menggantung.
 - Hanya domain dengan status **200** yang disimpan di JSON output.
-
-## Tangkapan Layar
-![FunPic_20241014](https://github.com/user-attachments/assets/22021b15-61ea-4491-ab2a-c0e5e1f9b1e5)
 
 ## ☕ Dukung Kami
 Jika Anda merasa proyek ini bermanfaat dan ingin mendukung pengembangan lebih lanjut, Anda bisa memberikan donasi melalui:
