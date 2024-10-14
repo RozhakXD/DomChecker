@@ -11,9 +11,9 @@
 - Memindai secara otomatis daftar domain dari file apa pun dengan pola yang tidak beraturan.
 - Multi-threading untuk pemrosesan cepat (menggunakan 30 worker).
 - Handling error otomatis (connection error, timeout, dll.).
+- Tampilan konsol lebih rapi dan elegan dengan Rich library.
 - Hasil disimpan dalam file **JSON**.
 - Protokol **HTTP/HTTPS** dapat dipilih pengguna.
-- Tampilan konsol lebih rapi dan elegan dengan Rich library.
 
 ## 🚀 Instalasi
 1. Clone Repository dari GitHub
@@ -60,12 +60,12 @@ DomChecker/
 ## ⚡ Teknologi yang Digunakan
 - **Requests Library** – Untuk mengirim HTTP request.
 - **ThreadPoolExecutor** – Untuk menjalankan proses secara paralel.
-- **Rich Library** – Untuk memperindah tampilan konsol.
 - **Python**
+- **Rich Library** – Untuk memperindah tampilan konsol.
 
 ## 📌 Catatan Penting
-- **Timeout** telah diset ke **10 detik** untuk menghindari request yang menggantung.
 - File input harus berisi daftar domain atau hostname (berantakan atau terstruktur).
+- **Timeout** telah diset ke **10 detik** untuk menghindari request yang menggantung.
 - Hanya domain dengan status **200** yang disimpan di JSON output.
 
 ## Tangkapan Layar
