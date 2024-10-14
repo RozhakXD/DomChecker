@@ -5,7 +5,7 @@
 ![Requests](https://img.shields.io/badge/Requests-2.31-red)
 ![Threading](https://img.shields.io/badge/ThreadPoolExecutor-30_workers-yellow)
 
-**DomChecker** adalah alat untuk memeriksa status respons HTTP dari hostname atau domain secara otomatis. Dirancang agar efisien dengan multi-threading dan kemampuan menangani error, DomChecker memindai domain dari file teks dan menyimpan hasil yang valid (HTTP 200) dalam format JSON.
+**DomChecker** adalah alat yang digunakan untuk memeriksa status respons HTTP dari hostname atau domain secara otomatis. Dirancang agar efisien dengan multi-threading dan kemampuan menangani error, DomChecker memindai domain dari file teks dan menyimpan hasil yang valid (HTTP 200) dalam format JSON.
 
 ## 📋 Fitur Utama
 - Memindai secara otomatis daftar domain dari file apa pun dengan pola yang tidak beraturan.
